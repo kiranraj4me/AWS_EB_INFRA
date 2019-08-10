@@ -25,17 +25,17 @@ variable "account-id" {
 variable "vpc" {
     type = "map"
     default = {
-    "dev" = "vpc-" 
-    "qa" = "vpc-"
-    "uat" = "vpc-"
-    "prod" = ""
+    "dev" = "vpc-0f929ec0562ae95aa" 
+    "qa" = "vpc-041511d22ce2909de"
+    "uat" = "vpc-05a46c5d26bd53233"
+    "prod" = "vpc-00ca9024148328551"
     }
 }
 
 variable "private-subnet" {
     type = "map"
     default = {
-    "dev" = "subnet-,subnet-,subnet-"
+    "dev" = "subnet-003ea70b3b0c43405,subnet-02b16e11bcb4f58fb,subnet-0effc4e63d6bb191b"
     "qa" = "subnet-,subnet-,subnet-"
     "uat" = "subnet-a7279488,subnet-bb6810df,subnet-6c1da931"
     "prod" = "" 
@@ -45,7 +45,7 @@ variable "private-subnet" {
 variable "public-subnet" {
     type    = "map"
     default = {
-       "dev" = "subnet-,subnet-,subnet-00c5669f7ded1289d"
+       "dev" = "subnet-0929d2ec6bd4188be,subnet-0d26e2cd3ded5bb1d,subnet-0ffa106bd5467d4ed"
        "qa" = "subnet-6c8d2931,subnet-718df915,subnet-218a290e" 
        "uat" = "subnet-9b1ca8c6,subnet-b9037bdd,subnet-27269508"
        "prod" = "" 
@@ -56,8 +56,8 @@ variable "public-subnet" {
 variable "s3-bucket" {
     type = "map"
     default = {
-  "prod"    = ""
-  "non-prod" = ""
+  "prod"    = "nonprod-ust-hackathon"
+  "non-prod" = "nonprod-ust-hackathon"
   }
 }
 
