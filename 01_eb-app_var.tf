@@ -33,7 +33,7 @@ locals {
 
 locals {
   common_tags = {
-  "contact" = "kiran"
+  "contact" = "kiran.anitha@ust-global.com"
   "build-commit" = local.build-commit
   "build-repo" = local.build-repo
   "build-branch" = local.build-branch
