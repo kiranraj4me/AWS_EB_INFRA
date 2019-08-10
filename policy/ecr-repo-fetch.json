@@ -18,7 +18,7 @@
                 "ecr:BatchGetImage"
             ],
             "Resource": [
-                "arn:aws:ecr:us-east-1:812504860083:repository/gcs-centos-base"
+                "arn:aws:ecr:us-east-1:812504860083:repository/centos-base"
             ],
             "Effect": "Allow"
         }
